@@ -1,17 +1,8 @@
 const numberOfQuestions = 52;
-const questionHeaders = [];
-for (let i = 0; i < numberOfQuestions; ++i) questionHeaders.push("Question №" + (i + 1));
-
-// const questionBodies = [
-//     `function sayHi() {
-//    console.log(name);
-//    console.log(age);
-//    var name = "Lydia";
-//    let age = 21;
-// }
-//
-// sayHi();`,
-// ]
+let numberOfQuestionsChecked = 0;
+let numberOfQuestionsTrue = 0;
+let numberOfQuestionsFalse = 0;
+const countsStr = document.querySelector("header>p")
 
 const questionBodies = [
     {
